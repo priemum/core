@@ -5,7 +5,7 @@ import { Bot, List } from '@types'
 import * as Query from '@utils/Query'
 import LongButton from '@components/LongButton'
 
-const Advertisement = dynamic(() => import('@components/Advertisement'))
+const Advertisement = dynamic(() => import('@components/Advertisement'))          
 const ResponsiveGrid = dynamic(() => import('@components/ResponsiveGrid'))
 const Container = dynamic(() => import('@components/Container'))
 const BotCard = dynamic(() => import('@components/BotCard'))
